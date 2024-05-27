@@ -15,6 +15,9 @@ body{
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: skyblue;
+  font-size: 24px;
 }
 
 #image1, #image2, #image3{
@@ -23,6 +26,7 @@ body{
   width: 470px;
   height: 270px;
   transition: width 1s, height 1s;  
+  border: 5px, solid, #555;
 }
 
 #image1:hover,#image2:hover,#image3:hover{
@@ -48,7 +52,6 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   flex: 1;
-  background-color: green;
   gap: 100px;
 }
 
@@ -58,7 +61,6 @@ body{
   justify-content: center;
   max-width: 470px;
   max-height: 270px;
-  background-color: yellow;
   gap: 24px;
   margin-top: 36px;
 }
@@ -66,8 +68,14 @@ body{
 #dalsieBox{
   display: flex;
   flex: 1;
+  align-items: center;
   justify-content: center;
-  background-color: blue;
+}
+
+#dalseibox div{
+  display: flex;
+  flex: 1;
+
 
 }
 
@@ -90,4 +98,8 @@ body{
 
 #profileLinkTag{
   max-width: 38px;
+}
+
+.multiline{
+  white-space: pre-wrap;
 }
