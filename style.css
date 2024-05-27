@@ -17,13 +17,20 @@ body{
   margin: 0;
 }
 
-img{
+#image1, #image2, #image3{
   filter: grayscale(1);
+  object-fit: fill;
+  width: 470px;
+  height: 270px;
+  transition: width 1s, height 1s;  
 }
 
 #image1:hover,#image2:hover,#image3:hover{
   filter: grayscale(0);
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
+  width: 500px;
+  height: 300px;
+
 }
 
 #header{
@@ -54,7 +61,6 @@ img{
   background-color: yellow;
   gap: 24px;
   margin-top: 36px;
-
 }
 
 #dalsieBox{
