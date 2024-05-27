@@ -21,8 +21,9 @@ img{
   filter: grayscale(1);
 }
 
-img:hover{
+#image1:hover,#image2:hover,#image3:hover{
   filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 #header{
@@ -44,16 +45,16 @@ img:hover{
   gap: 100px;
 }
 
-#mainShowcaseBox div {
+#mainShowcaseBox div,a {
   display: flex;
   flex: 1;
   justify-content: center;
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 470px;
+  max-height: 270px;
   background-color: yellow;
   gap: 24px;
   margin-top: 36px;
-  
+
 }
 
 #dalsieBox{
@@ -75,9 +76,12 @@ img:hover{
   gap: 16px;
 }
 
-#footerBox div, a{
+#footerBox div,a{
   color: white;
   align-items: center;
   margin-top: 4px;
 }
 
+#profileLinkTag{
+  max-width: 38px;
+}
