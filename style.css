@@ -41,8 +41,9 @@ body{
   display: flex;
   flex: 1;
   align-items: center;
+  justify-content: center;
   max-height: 200px;
-  margin: 12px;
+  margin: 48px;
 }
 
 #mainShowcaseBox{
@@ -52,6 +53,12 @@ body{
   justify-content: center;
   flex: 1;
   gap: 100px;
+  text-align: center;
+}
+
+#showcase1,#showcase2,#showcase3{
+  display: flex;
+  flex-direction: column;
 }
 
 #mainShowcaseBox div,a {
@@ -61,7 +68,7 @@ body{
   max-width: 470px;
   max-height: 270px;
   gap: 24px;
-  margin-top: 36px;
+  margin-top: 32px;
 }
 
 #dalsieBox{
@@ -78,6 +85,16 @@ body{
 
 }
 
+
+#gameBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  flex-direction: row;
+  gap: 24px;
+}
+
 #footerBox{
   display: flex;
   flex: 1;
@@ -87,6 +104,7 @@ body{
   background-color:#0d1117 ;
   max-height: 40px;
   gap: 16px;
+  margin: 0;
 }
 
 #footerBox div,a{
